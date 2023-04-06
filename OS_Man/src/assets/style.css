@@ -1,0 +1,73 @@
+
+  
+  body {
+  color: #2A2B2D;
+  
+}
+  .btn-black {
+    background-color: #2A2B2D;
+    border-color: #2A2B2D;
+    color: #fff;
+  }
+
+  .btn-black:hover {
+background-color: #47996B;
+color: white;
+}
+
+  .btn-outline-black {
+    background-color: transparent;
+    color: #2A2B2D;
+border-color: #2A2B2D;
+  }
+
+
+  .btn-outline-black:hover {
+background-color: #2A2B2D;
+color: rgb(255, 255, 255);
+}
+
+.btn-primary {
+  background-color: #2A2B2D;
+  border-color: #2A2B2D;
+  color: white;
+}
+
+.btn-primary:hover {
+  background-color: #555;
+  border-color: #555;
+}
+
+/* Minimalistic Edit and Delete buttons */
+.btn-sm {
+font-size: 0.875rem;
+padding: 0.25rem 0.5rem;
+border-radius: 0.2rem;
+}
+
+.btn-success {
+  background-color: #ffffff;
+  border-color: #47996B;
+  color: #47996B;
+}
+
+.btn-success:hover {
+  background-color: #47996B;
+  border-color: #47996B;
+}
+
+.btn-danger {
+  background-color: #ffffff;
+  border-color: #CB3541;
+  color: #CB3541;
+}
+
+.btn-danger:hover {
+  background-color: #CB3541;
+  border-color: #CB3541;
+}
+
+.tt{
+  width: 110%
+}
+
