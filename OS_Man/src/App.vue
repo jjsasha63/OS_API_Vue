@@ -38,6 +38,9 @@ function logout() {
           <li class="nav-item">
             <RouterLink to="/token" class="nav-link text-black">Master</RouterLink>
           </li>
+          <li class="nav-item">
+            <RouterLink to="/register" class="nav-link text-black">Register</RouterLink>
+          </li>
         </ul>
       </nav>
     </header>

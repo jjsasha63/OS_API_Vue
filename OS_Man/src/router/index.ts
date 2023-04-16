@@ -18,6 +18,8 @@ import { useMAuthStore } from '@/stores/authM'
 import MasterView from '@/views/MasterView.vue'
 import LoginFormVue from '@/components/LoginForm.vue'
 import MasterLoginFormVue from '@/components/MasterLoginForm.vue'
+import AdminRegister from '@/components/AdminRegister.vue'
+
 
 
 
@@ -32,6 +34,11 @@ const router = createRouter({
       path: '/category',
       name: 'category',
       component: CategoryView
+    },
+    {
+      path: '/register',
+      name: 'register',
+      component: AdminRegister
     },
     {
       path: '/loginMaster',
@@ -100,7 +107,7 @@ const router = createRouter({
 
 router.beforeEach(async (to) => {
   // redirect to login page if not logged in and trying to access a restricted page
-  const publicPages = ['/login','/loginMaster'];
+  const publicPages = ['/login','/loginMaster','/register'];
   const authRequired = !publicPages.includes(to.path);
   const auth = useAuthStore();
   const authM = useMAuthStore();
